@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smith Web</title>
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 33vw;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Smith Jr, Carisma y Determinacion</h1>
+        <nav>
+           <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Preferencias.html">Preferencias</a></li>
+            <li><a class="active" href="Audiovisuals.html">Audiovisuals</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+           </ul> 
+        </nav>
+    </header>
+<div class="centrado">
+<video class="centrado" src="videos/Y2meta.app-EL AMOR VERDADERO _ Gracias Por Estar En Mi Vida ¦ Poemas de Amor ¦ Versos-(1080p60).mp4" autoplay muted width="1500"></video>
+
+</div>
+
+<div class="centrado">
+
+    <audio class="centrado" src="Audios/Y2meta.app - EL AMOR VERDADERO _ Gracias Por Estar En Mi Vida ¦ Poemas de Amor ¦ Versos (128 kbps).mp3"autoplay controls muted></audio>
+</div>
+
+<section class="centrado">
+
+    <div class="gallery">
+<a href="images/15 parado.jpg" target="_blank"><img src="images/15 parado.jpg" alt="Robert 1" width="600"></a>
+<div class="desc">Robert 1</div>
+</div>
+
+<div class="gallery">
+    <a href="images/Robert y luz.jpg" target="_blank"><img src="images/Robert y luz.jpg" alt="Robert y Luz" width="600"> 
+        <div class="desc">Robert & Luz</div>
+</div>
+<div class="gallery">
+    <a href="images/Robert nail.jpg" target="_blank"><img src="images/Robert nail.jpg" alt="Robert y Nails" width="600">
+        <div class="desc">Robert & Nails</div>
+</div>
+<div class="gallery">
+    <a href="images/Robert mari.jpg" target="_blank"><img src="images/Robert mari.jpg" alt="Robert y Mari" width="600">
+        <div class="desc">Robert & Mari</div>
+</div>
+<div class="gallery">
+    <a href="images/Robert glob.jpg" target="_blank"><img src="images/Robert glob.jpg" alt="Robert en los globos" width="600">
+        <div class="desc">Robert en los globos</div>
+</div>
+
+</section>
+    <footer class="container">
+        <p> Todos los derechos reservados &copy;2024</p>
+    </footer>
+</body>
+</html>
